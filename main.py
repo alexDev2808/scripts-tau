@@ -2,22 +2,22 @@
 fechas = []
 
 anio = 2024
-mes = 9
+mes = 10
 diaInicio = 1
-diaFin = 30
+diaFin = 31
 numInicio = 2
 numFin = 30
-repeticionesFecha = 5
+repeticionesFecha = 9
 numReps = 5
 textoFecha = ""
 
 subAreas: list = [
     "Planeacion",
-    "Procesos", 
+    "Procesos",
     "Cambio de Placa",
     "Dado",
     "Maquina",
-    "Operaciones", 
+    "Operaciones",
     "Arranque / C. Planta",
     "Ausentismo",
     "Pruebas"
@@ -40,7 +40,6 @@ def generarNumeros():
         for j in range(1, numReps + 1):
             print(j)   
 
-
-# generarFechas()
+generarFechas()
 # generarSubAreas()
-generarNumeros()
+# generarNumeros()

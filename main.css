@@ -1,0 +1,7 @@
+.container-datos {
+    background-color: #F5EFFF;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
